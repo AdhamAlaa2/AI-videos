@@ -1,9 +1,12 @@
 # reelfactory — viral short-form video factory
 
-A Claude-powered pipeline that turns one command into finished production briefs for vertical
-reels (TikTok, Instagram Reels, YouTube Shorts, Facebook Reels). A brief has a timed script,
-scene-by-scene AI image and video prompts, packaging and A/B/C variants. Every reel passes
-quality control before it ships.
+A Claude-powered pipeline for vertical reels (TikTok, Instagram Reels, YouTube Shorts,
+Facebook Reels). It writes the reel, renders it to a finished MP4 (AI voice-over, AI visuals,
+word-by-word captions, music) and posts it. Every reel passes quality control before it ships.
+
+```
+reelfactory run --produce full --publish youtube,tiktok,instagram,facebook
+```
 
 **See a finished reel:** [`examples/ANC-EN-5F6766.md`](examples/ANC-EN-5F6766.md). The example
 is *"Cleopatra is closer to iPhones than pyramids"*, a 45-second reel. It has 8 timed beats,
@@ -51,6 +54,58 @@ then land on the evidence. Health and wealth reels give no advice and promise no
 Generated imagery avoids real people's likenesses. These rules keep reels shareable without
 risking takedowns or defamation.
 
+## From brief to posted video
+
+### Produce: `reelfactory produce <reel.json> --mode draft|stills|full`
+
+| Mode | Voice-over | Visuals | Needs | Rough cost per 45 s reel* |
+|---|---|---|---|---|
+| `draft` | silent (timed placeholder) | storyboard cards with Ken Burns motion | nothing | free |
+| `stills` | ElevenLabs | FLUX 1.1 Pro images with Ken Burns motion | `ELEVENLABS_API_KEY`, `FAL_KEY` | ~$1 |
+| `full` | ElevenLabs | FLUX images animated by Kling 2.6 Pro (image-to-video) | same | ~$5-10 |
+
+\*Ballpark figures from public list prices at the time of writing. Check fal.ai and ElevenLabs
+pricing before running at volume.
+
+What the renderer does:
+1. **Voice-over, one clip per beat.** Each clip is placed at its beat's timestamp, so the voice,
+   cuts and captions stay locked to the script. A line that overruns its beat is sped up by up to
+   1.25x; anything longer is reported as a warning.
+2. **Scene visuals.** Each scene gets a still generated from its image prompt, using a fixed seed
+   per reel for a consistent look. In `full` mode the still is the first frame of the AI video
+   clip, which keeps characters consistent. If clip generation fails, the scene falls back to the
+   animated still.
+3. **Captions.** Two layers are burned in: the beat's punch caption in the upper third, and the
+   voice-over in 3-word chunks with the spoken word highlighted. The ElevenLabs timestamps drive
+   the highlighting. Captions are rendered with libass, so Arabic shapes and reads right to left
+   correctly.
+4. **Mix.** An optional `--music` bed is ducked under the voice with a sidechain compressor and
+   faded out. The final audio is loudness-normalised to −14 LUFS, the standard for social platforms.
+5. **Output.** A 1080×1920, 30 fps H.264/AAC `.mp4` of exactly the reel's length, plus
+   `manifest.json`. Every intermediate file is cached, so a rerun only pays for what is missing.
+
+`--variant B` renders the B variant's hook and CTA, so you can post A and B as separate videos.
+
+Provider settings:
+- `ELEVENLABS_VOICE_ID`, or `ELEVENLABS_VOICE_AR` (and the same for each language) for a native
+  voice per language.
+- `FAL_IMAGE_MODEL`, `FAL_VIDEO_MODEL` and `FAL_VIDEO_IMAGE_FIELD` switch models. For example,
+  Veo or Seedance take `image_url` instead of `start_image_url`.
+
+### Publish: `reelfactory publish <reel.json> --platforms youtube,tiktok,instagram,facebook [--public]`
+
+**Everything is private by default.** YouTube uploads as `private`, TikTok as `SELF_ONLY` and
+Facebook as a `DRAFT`. Instagram has no private mode, so it is skipped unless you pass `--public`.
+Posts are labelled as AI-generated where the API supports it (YouTube `containsSyntheticMedia`,
+TikTok `is_aigc`). Each attempt is logged to `published.json` next to the video.
+
+| Platform | API | Credentials (env vars) | One-time setup |
+|---|---|---|---|
+| YouTube Shorts | Data API v3, resumable upload | `YT_CLIENT_ID`, `YT_CLIENT_SECRET`, `YT_REFRESH_TOKEN` | Create an OAuth client (Desktop app) in Google Cloud and enable YouTube Data API v3, then run `reelfactory auth youtube` to get the refresh token. The default quota allows about 6 uploads a day; request more from Google if needed. |
+| TikTok | Content Posting API, Direct Post | `TIKTOK_ACCESS_TOKEN` (scope `video.publish`) | Register an app at developers.tiktok.com. **Until TikTok audits the app, every post is private**, so public posting needs the audit. |
+| Instagram Reels | Graph API, resumable upload | `IG_USER_ID`, `IG_ACCESS_TOKEN`, optional `IG_GRAPH_HOST` | Needs a Business or Creator account and a Meta app with `instagram_content_publish`. |
+| Facebook Reels | Graph API `video_reels` | `FB_PAGE_ID`, `FB_PAGE_ACCESS_TOKEN` | Needs a Page token with `pages_manage_posts`. Limit: 30 API posts per 24 h. |
+
 ## Usage
 
 ```bash
@@ -63,9 +118,16 @@ reelfactory run
 # Targeted: history + space, English and Arabic, 30 s, ship 5 per language
 reelfactory run --niches "History,Space,Ancient Civilizations" --language en,ar --length 30 --keep 5 -v
 
+# Fully autonomous: write, render and post privately for review
+reelfactory run --keep 3 --produce full --music bed.mp3 --publish youtube,tiktok,facebook
+
+reelfactory produce output/HIS-EN-1A2B3C.json --mode stills           # render one brief
+reelfactory produce output/HIS-EN-1A2B3C.json --mode stills --variant B
+reelfactory publish output/HIS-EN-1A2B3C.json --platforms youtube,tiktok --public
+
 reelfactory niches                  # list the 30 niches
 reelfactory render output/*.json    # re-render briefs after hand edits
-pytest                              # 16 offline tests (fake LLM, no API calls)
+pytest                              # 30 offline tests (no API calls; real ffmpeg render)
 ```
 
 Output goes to `output/<REEL_ID>.json` (machine-readable, ready for editing and TTS tools) and
@@ -101,15 +163,24 @@ reelfactory/
   validators.py  deterministic quality gates
   pipeline.py    Factory: discover → rank → produce → run_cycle
   render.py      Reel → Markdown brief
-  cli.py         `reelfactory run | render | niches`
+  cli.py         `reelfactory run | produce | publish | auth | render | niches`
+  media/         tts.py (ElevenLabs / silent), visuals.py (fal FLUX + Kling / placeholder),
+                 captions.py (ASS word highlighting), produce.py (ffmpeg assembly)
+  publish/       youtube.py, tiktok.py, meta.py (Instagram + Facebook)
 examples/        a fully worked, fact-checked reel (JSON + Markdown)
 tests/           offline tests with a fake LLM
 ```
 
-## What it does not do (yet)
+## Limits worth knowing
 
-It writes production-ready briefs and prompts. It does not call image, video or TTS
-generators, and it does not post to platforms. Those tools change quickly and each needs its
-own account. The JSON output is designed to be piped into them (one image and one video prompt
-per scene, voice-over split by beat with timestamps). Real "viral" optimisation also needs your
-own retention and share data from each platform, fed back into the idea scoring.
+- **Sound effects** are written as a timed cue sheet in `manifest.json`. They are not mixed
+  automatically, because licensed SFX libraries vary. Add them in your editor, or extend
+  `produce.py` to point at a folder of SFX files.
+- **Platform approvals are yours to get.** TikTok keeps posts private until your app is audited.
+  Instagram needs a Business or Creator account. YouTube uploads are limited by API quota. The code
+  handles each API; the accounts and approvals have to come from you.
+- **Real A/B testing** needs your own analytics. The platforms don't split traffic for you, so
+  post variants on separate days or accounts and compare retention.
+- **Live API runs are untested here.** The publishers and generators are tested against mocked
+  HTTP responses that follow each service's docs, not against live accounts. Do a first run with
+  one reel, privately, before scaling up.
