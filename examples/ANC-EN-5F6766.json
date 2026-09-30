@@ -1,0 +1,659 @@
+{
+  "reel_id": "ANC-EN-5F6766",
+  "niche": "Ancient Civilizations",
+  "language": "en",
+  "length_sec": 45,
+  "target_audience": "16-34 curiosity-driven scrollers who follow history, science and 'mind-blown' fact accounts; broad global appeal, strong in US/UK/EU and MENA",
+  "virality_score": 8.94,
+  "title": "Cleopatra Is Closer to the iPhone Than the Pyramids",
+  "idea": {
+    "niche": "Ancient Civilizations",
+    "working_title": "Cleopatra is closer to the iPhone than to the pyramids",
+    "premise": "Three true timeline overlaps that make history feel impossible, each bigger than the last.",
+    "payoff": "T. rex lived closer in time to you than to Stegosaurus.",
+    "target_audience": "16-34 curiosity-driven scrollers who follow history, science and 'mind-blown' fact accounts; broad global appeal, strong in US/UK/EU and MENA",
+    "fact_basis": "Great Pyramid c. 2560 BC (Khufu); Cleopatra VII 69-30 BC; first iPhone 2007; Wrangel Island mammoths to c. 4,000 years ago; teaching at Oxford by 1096; Tenochtitlan founded c. 1325; Stegosaurus c. 155-145 Ma; T. rex c. 68-66 Ma.",
+    "scores": {
+      "viral_potential": 9,
+      "curiosity": 10,
+      "emotional_impact": 8,
+      "shareability": 9,
+      "audience_size": 9
+    }
+  },
+  "hook": {
+    "spoken": "Cleopatra is closer to iPhones than pyramids.",
+    "on_screen_text": "CLOSER TO iPHONES?!",
+    "visual_interrupt": "Cleopatra lifts a glowing iPhone before the pyramid",
+    "technique": "impossible comparison",
+    "score": 10
+  },
+  "hook_candidates": [
+    {
+      "spoken": "Cleopatra is closer to iPhones than pyramids.",
+      "on_screen_text": "CLOSER TO iPHONES?!",
+      "visual_interrupt": "Cleopatra lifts a glowing iPhone before the pyramid",
+      "technique": "impossible comparison",
+      "score": 10
+    },
+    {
+      "spoken": "History's timeline is lying to you.",
+      "on_screen_text": "YOUR TIMELINE IS WRONG",
+      "visual_interrupt": "Golden timeline shatters like glass",
+      "technique": "contradiction",
+      "score": 8
+    },
+    {
+      "spoken": "Mammoths watched the pyramids go up.",
+      "on_screen_text": "MAMMOTHS + PYRAMIDS",
+      "visual_interrupt": "Mammoth silhouette against a pyramid",
+      "technique": "impossible comparison",
+      "score": 9
+    },
+    {
+      "spoken": "This date math will break you.",
+      "on_screen_text": "DATE MATH ≠ BRAIN",
+      "visual_interrupt": "Calendar pages explode into sand",
+      "technique": "challenge",
+      "score": 7
+    },
+    {
+      "spoken": "Cleopatra would call the pyramids ancient.",
+      "on_screen_text": "ANCIENT... TO HER",
+      "visual_interrupt": "Cleopatra looks up at an eroded pyramid",
+      "technique": "reframe",
+      "score": 8
+    },
+    {
+      "spoken": "Three facts that break time.",
+      "on_screen_text": "3 FACTS THAT BREAK TIME",
+      "visual_interrupt": "Hourglass cracks, sand floats upward",
+      "technique": "countdown",
+      "score": 7
+    },
+    {
+      "spoken": "Your teacher never mentioned this overlap.",
+      "on_screen_text": "SCHOOL SKIPPED THIS",
+      "visual_interrupt": "Textbook slams shut in dust",
+      "technique": "hidden truth",
+      "score": 7
+    },
+    {
+      "spoken": "T. rex is closer to you than...",
+      "on_screen_text": "T. REX IS CLOSER TO YOU",
+      "visual_interrupt": "T. rex eye opens in extreme close-up",
+      "technique": "open-ended sentence",
+      "score": 9
+    },
+    {
+      "spoken": "Oxford is older than the Aztecs.",
+      "on_screen_text": "OXFORD > AZTECS?",
+      "visual_interrupt": "Gothic tower cross-cut with a lake city",
+      "technique": "impossible comparison",
+      "score": 8
+    },
+    {
+      "spoken": "Nobody believes this one. It's true.",
+      "on_screen_text": "IT'S TRUE. LOOK.",
+      "visual_interrupt": "Stamp 'VERIFIED' slams on screen",
+      "technique": "social proof",
+      "score": 6
+    },
+    {
+      "spoken": "Wait until you hear the dinosaur one.",
+      "on_screen_text": "WAIT FOR THE DINOSAUR",
+      "visual_interrupt": "Ground shakes, water ripples",
+      "technique": "delayed payoff",
+      "score": 8
+    },
+    {
+      "spoken": "The pyramids aren't as old as that...",
+      "on_screen_text": "OLDER THAN THE PYRAMIDS",
+      "visual_interrupt": "Aerial dive toward Giza",
+      "technique": "curiosity gap",
+      "score": 6
+    },
+    {
+      "spoken": "Time is way weirder than you think.",
+      "on_screen_text": "TIME IS WEIRD",
+      "visual_interrupt": "Clock hands spin backward",
+      "technique": "generic curiosity",
+      "score": 5
+    },
+    {
+      "spoken": "Cleopatra, iPhone, pyramids. Pick the odd one.",
+      "on_screen_text": "WHICH IS THE ODD ONE?",
+      "visual_interrupt": "Three objects on a stone altar",
+      "technique": "quiz",
+      "score": 7
+    },
+    {
+      "spoken": "Mammoths were alive for this?",
+      "on_screen_text": "WAIT, MAMMOTHS?!",
+      "visual_interrupt": "Mammoth tusk breaks through snow",
+      "technique": "surprise",
+      "score": 8
+    },
+    {
+      "spoken": "One of these is 2,000 years off.",
+      "on_screen_text": "2,000 YEARS OFF",
+      "visual_interrupt": "Timeline markers slide apart",
+      "technique": "number tease",
+      "score": 7
+    },
+    {
+      "spoken": "You're closer to T. rex than Stegosaurus.",
+      "on_screen_text": "YOU vs STEGOSAURUS",
+      "visual_interrupt": "Stegosaurus plates silhouetted in fog",
+      "technique": "direct address",
+      "score": 8
+    },
+    {
+      "spoken": "Rewrite everything you know about 'ancient'.",
+      "on_screen_text": "'ANCIENT' IS RELATIVE",
+      "visual_interrupt": "Word 'ANCIENT' crumbles",
+      "technique": "reframe",
+      "score": 6
+    },
+    {
+      "spoken": "Stop. Cleopatra saw ruins, not wonders.",
+      "on_screen_text": "SHE SAW RUINS",
+      "visual_interrupt": "Freeze-frame on Cleopatra's eyes",
+      "technique": "pattern interrupt",
+      "score": 7
+    },
+    {
+      "spoken": "The last one is genuinely insane.",
+      "on_screen_text": "THE LAST ONE THOUGH",
+      "visual_interrupt": "Screen glitches and rewinds",
+      "technique": "delayed payoff",
+      "score": 7
+    }
+  ],
+  "script": {
+    "beats": [
+      {
+        "section": "HOOK",
+        "start_sec": 0.0,
+        "end_sec": 2.0,
+        "voiceover": "Cleopatra is closer to iPhones than pyramids.",
+        "on_screen_caption": "CLOSER TO iPHONES?!",
+        "open_loop": "How can that possibly be true?",
+        "psychology": [
+          "pattern interrupt",
+          "curiosity gap"
+        ]
+      },
+      {
+        "section": "CONTEXT",
+        "start_sec": 2.0,
+        "end_sec": 8.0,
+        "voiceover": "The Great Pyramid was already twenty-five centuries old when she was born. To her, it was ancient history.",
+        "on_screen_caption": "2,500 YEARS OLD... TO HER",
+        "open_loop": "If the pyramid was ancient to Cleopatra, what else was alive when it was built?",
+        "psychology": [
+          "reframe",
+          "curiosity gap"
+        ]
+      },
+      {
+        "section": "BUILDUP",
+        "start_sec": 8.0,
+        "end_sec": 15.0,
+        "voiceover": "But here's what breaks your brain. When the pyramid's first stones were laid, something else was still walking the Earth.",
+        "on_screen_caption": "SOMETHING ELSE WAS ALIVE",
+        "open_loop": "What was still walking the Earth?",
+        "psychology": [
+          "suspense",
+          "delayed answer"
+        ]
+      },
+      {
+        "section": "TWIST",
+        "start_sec": 15.0,
+        "end_sec": 22.0,
+        "voiceover": "Woolly mammoths. A small population survived on an Arctic island until about four thousand years ago, after the pyramid was finished.",
+        "on_screen_caption": "MAMMOTHS. STILL ALIVE.",
+        "open_loop": "And that's not even the strangest overlap.",
+        "psychology": [
+          "surprise",
+          "open loop"
+        ]
+      },
+      {
+        "section": "ESCALATION",
+        "start_sec": 22.0,
+        "end_sec": 29.0,
+        "voiceover": "Oxford University was already teaching students two centuries before the Aztecs founded Tenochtitlan.",
+        "on_screen_caption": "OXFORD 1096 · AZTEC CAPITAL 1325",
+        "open_loop": "The last one is on a completely different scale.",
+        "psychology": [
+          "escalation",
+          "surprise"
+        ]
+      },
+      {
+        "section": "ESCALATION",
+        "start_sec": 29.0,
+        "end_sec": 35.0,
+        "voiceover": "Now zoom out. Way out. Past humans. Past mammoths. All the way to dinosaurs.",
+        "on_screen_caption": "ZOOM OUT. WAY OUT.",
+        "open_loop": "Which dinosaur is closer to you than to its own 'neighbour'?",
+        "psychology": [
+          "suspense",
+          "pattern interrupt"
+        ]
+      },
+      {
+        "section": "FINAL_SURPRISE",
+        "start_sec": 35.0,
+        "end_sec": 41.0,
+        "voiceover": "Tyrannosaurus rex lived closer in time to you than to Stegosaurus. About eighty million years apart. Sixty-six from you.",
+        "on_screen_caption": "T. REX → YOU < T. REX → STEGOSAURUS",
+        "open_loop": "",
+        "psychology": [
+          "reward loop",
+          "surprise"
+        ]
+      },
+      {
+        "section": "CTA",
+        "start_sec": 41.0,
+        "end_sec": 45.0,
+        "voiceover": "Send this to someone who thinks history is boring. Follow for part two.",
+        "on_screen_caption": "SEND THIS TO A HISTORY HATER 👇",
+        "open_loop": "",
+        "psychology": [
+          "social currency",
+          "FOMO"
+        ]
+      }
+    ],
+    "music_mood": "Tense, cinematic ticking-clock underscore that swells into an epic, awe-struck reveal",
+    "music_notes": "90-100 BPM pulse with a clock-tick motif. Hard cut to silence at 15.0s for the mammoth reveal, rebuild with low brass at 22s, full drop exactly on 'Tyrannosaurus' at 35.0s, fade under the CTA and end on the same tick as frame 1 so the loop is seamless.",
+    "sound_effects": [
+      {
+        "at_sec": 0.0,
+        "effect": "Glass-smash whoosh + iPhone unlock click"
+      },
+      {
+        "at_sec": 2.0,
+        "effect": "Desert wind swell"
+      },
+      {
+        "at_sec": 8.0,
+        "effect": "Deep heartbeat thump"
+      },
+      {
+        "at_sec": 13.5,
+        "effect": "Distant heavy footsteps, ground rumble"
+      },
+      {
+        "at_sec": 15.0,
+        "effect": "Silence, then a mammoth trumpet"
+      },
+      {
+        "at_sec": 22.0,
+        "effect": "Cathedral bell toll"
+      },
+      {
+        "at_sec": 29.0,
+        "effect": "Rewind tape-spin whoosh"
+      },
+      {
+        "at_sec": 35.0,
+        "effect": "T. rex roar layered with sub-bass boom"
+      },
+      {
+        "at_sec": 41.0,
+        "effect": "Soft pop on the send-arrow caption"
+      }
+    ],
+    "editing_instructions": [
+      "Frame 1 is already mid-action: no fade-in, no logo.",
+      "Cuts every 2-4 s; faster (2 s) in HOOK and FINAL_SURPRISE.",
+      "Word-by-word bold white captions with yellow highlight on numbers and names, centred in the upper third (clear of UI).",
+      "Animated gold timeline overlay at 2-8 s showing Pyramid, Cleopatra, iPhone with the gaps counting up.",
+      "Freeze-frame + 1.2x punch-in at 15.0 s on the mammoth; hold 0.3 s of silence.",
+      "Split-screen at 18-22 s: mammoth herd (left) / finished pyramid (right).",
+      "Speed-ramp the zoom-out at 29-35 s; reverse time-lapse feel.",
+      "Final frame matches frame 1 (Cleopatra + iPhone) for a seamless rewatch loop.",
+      "Colour: teal shadows, amber highlights; keep skin tones natural."
+    ],
+    "cta": "Send this to someone who thinks history is boring. Follow for part two.",
+    "claims": [
+      {
+        "statement": "The Great Pyramid of Giza was built c. 2560 BC for Pharaoh Khufu.",
+        "support": "Egyptological consensus (4th Dynasty); Encyclopaedia Britannica, 'Pyramids of Giza'.",
+        "confidence": "high"
+      },
+      {
+        "statement": "Cleopatra VII (69-30 BC) lived ~2,500 years after the Great Pyramid and ~2,040 years before the first iPhone (2007).",
+        "support": "Cleopatra's dates per Britannica; iPhone launched by Apple in June 2007. 2560 BC to 69 BC is ~2,490 years.",
+        "confidence": "high"
+      },
+      {
+        "statement": "Woolly mammoths survived on Wrangel Island until about 4,000 years ago, i.e. after the Great Pyramid was built.",
+        "support": "Vartanyan et al., Nature 362 (1993); Dehasque et al., Cell (2024) - last population c. 4,000 years BP.",
+        "confidence": "high"
+      },
+      {
+        "statement": "Teaching at Oxford existed by 1096; the Aztecs founded Tenochtitlan c. 1325.",
+        "support": "University of Oxford official history page; Tenochtitlan's traditional founding date 1325 (Britannica).",
+        "confidence": "high"
+      },
+      {
+        "statement": "Stegosaurus lived c. 155-145 million years ago; T. rex c. 68-66 million years ago - roughly 80 million years apart, vs 66 million years from today.",
+        "support": "Late Jurassic Morrison Formation dating for Stegosaurus; Late Maastrichtian for T. rex (Natural History Museum, London).",
+        "confidence": "high"
+      }
+    ]
+  },
+  "visuals": {
+    "style_guide": "Cinematic 9:16 vertical, ultra-realistic, shot on ARRI Alexa 65 with anamorphic lenses, dramatic chiaroscuro lighting, teal-and-amber grade, subtle 35mm film grain, shallow depth of field, high contrast between cuts",
+    "characters": [
+      {
+        "name": "Cleopatra (portrayal)",
+        "locked_description": "a woman in her late twenties portraying Cleopatra VII, warm olive skin, dark kohl-lined almond eyes, black hair in tight braids under a gold vulture crown, white pleated linen gown with a broad gold-and-lapis collar necklace"
+      }
+    ],
+    "environments": [
+      {
+        "name": "Giza",
+        "locked_description": "the Giza plateau at golden hour, the Great Pyramid weathered and missing most of its white casing stones, wind-blown sand, haze on the horizon"
+      }
+    ],
+    "scenes": [
+      {
+        "scene_number": 1,
+        "start_sec": 0.0,
+        "duration_sec": 2.0,
+        "section": "HOOK",
+        "visual_description": "Cleopatra holds up a glowing modern smartphone, the pyramid looming behind her.",
+        "camera_movement": "Snap zoom-in from medium to close-up",
+        "image_prompt": "a woman in her late twenties portraying Cleopatra VII, warm olive skin, dark kohl-lined almond eyes, black hair in tight braids under a gold vulture crown, white pleated linen gown with a broad gold-and-lapis collar necklace, holding up a glowing modern smartphone that lights her face, standing on the Giza plateau at golden hour, the Great Pyramid weathered and missing most of its white casing stones, wind-blown sand, haze on the horizon, anachronistic, eye-level medium close-up, 9:16 vertical, cinematic, ultra-realistic, dramatic rim light",
+        "video_prompt": "a woman in her late twenties portraying Cleopatra VII, warm olive skin, dark kohl-lined almond eyes, black hair in tight braids under a gold vulture crown, white pleated linen gown with a broad gold-and-lapis collar necklace raises a glowing smartphone toward camera on the Giza plateau at golden hour, the Great Pyramid weathered and missing most of its white casing stones, wind-blown sand, haze on the horizon; fast snap zoom-in to her face, screen glow flickers, 2 seconds, 9:16 vertical, cinematic, ultra-realistic",
+        "negative_prompt": "text, watermark, logo, extra fingers, distorted hands, cartoon, low quality"
+      },
+      {
+        "scene_number": 2,
+        "start_sec": 2.0,
+        "duration_sec": 3.0,
+        "section": "CONTEXT",
+        "visual_description": "Cleopatra looks up at the weathered pyramid as if at a ruin.",
+        "camera_movement": "Low-angle slow tilt up from her face to the apex",
+        "image_prompt": "a woman in her late twenties portraying Cleopatra VII, warm olive skin, dark kohl-lined almond eyes, black hair in tight braids under a gold vulture crown, white pleated linen gown with a broad gold-and-lapis collar necklace, gazing up in awe, seen from behind her shoulder, at the Giza plateau at golden hour, the Great Pyramid weathered and missing most of its white casing stones, wind-blown sand, haze on the horizon, low angle, 9:16 vertical, cinematic, ultra-realistic, god rays through haze",
+        "video_prompt": "a woman in her late twenties portraying Cleopatra VII, warm olive skin, dark kohl-lined almond eyes, black hair in tight braids under a gold vulture crown, white pleated linen gown with a broad gold-and-lapis collar necklace looks up; camera tilts slowly from her profile up the eroded face of the pyramid on the Giza plateau at golden hour, the Great Pyramid weathered and missing most of its white casing stones, wind-blown sand, haze on the horizon, dust drifting, 3 seconds, 9:16 vertical, cinematic",
+        "negative_prompt": "modern buildings, tourists, text, watermark, cartoon"
+      },
+      {
+        "scene_number": 3,
+        "start_sec": 5.0,
+        "duration_sec": 3.0,
+        "section": "CONTEXT",
+        "visual_description": "A glowing gold timeline line draws itself across the sand with three markers: pyramid, crown, phone.",
+        "camera_movement": "Top-down crane, tracking along the line",
+        "image_prompt": "glowing golden timeline line etched across rippled desert sand at dusk, three illuminated markers: a small pyramid, a gold crown, a smartphone, top-down aerial, 9:16 vertical, cinematic, ultra-realistic",
+        "video_prompt": "a golden line of light burns across desert sand from left to right, markers ignite one by one, top-down crane tracking along it, 3 seconds, 9:16 vertical",
+        "negative_prompt": "numbers, text, watermark, cartoon, flat vector"
+      },
+      {
+        "scene_number": 4,
+        "start_sec": 8.0,
+        "duration_sec": 3.0,
+        "section": "BUILDUP",
+        "visual_description": "Teams of workers haul a limestone block on a wooden sledge at sunrise.",
+        "camera_movement": "Handheld tracking alongside the sledge",
+        "image_prompt": "ancient Egyptian labour crew in linen kilts hauling a massive limestone block on a wooden sledge up a mud-brick ramp at sunrise, dust in the air, 9:16 vertical, cinematic, ultra-realistic, backlit",
+        "video_prompt": "workers pull ropes in rhythm, sledge grinds forward, dust kicks up, handheld tracking shot, 3 seconds, 9:16 vertical, cinematic",
+        "negative_prompt": "chains, whips, modern clothing, text, watermark"
+      },
+      {
+        "scene_number": 5,
+        "start_sec": 11.0,
+        "duration_sec": 4.0,
+        "section": "BUILDUP",
+        "visual_description": "Hard contrast cut to a dark Arctic tundra in a blizzard; a huge shadow moves.",
+        "camera_movement": "Slow push-in into the snow",
+        "image_prompt": "frozen Arctic coastal tundra in a blue-hour blizzard, a colossal dark shape barely visible through snow, 9:16 vertical, cinematic, ultra-realistic, cold teal grade",
+        "video_prompt": "slow push-in through heavy snowfall toward a huge silhouette, ground trembling, snow shaking off, 4 seconds, 9:16 vertical, suspenseful",
+        "negative_prompt": "clear view of animal, people, text, watermark"
+      },
+      {
+        "scene_number": 6,
+        "start_sec": 15.0,
+        "duration_sec": 3.0,
+        "section": "TWIST",
+        "visual_description": "A woolly mammoth steps out of the blizzard toward camera.",
+        "camera_movement": "Low-angle static, then freeze-frame",
+        "image_prompt": "woolly mammoth emerging from a blizzard on an Arctic island shore, long shaggy brown fur, curved tusks, frost on its fur, low angle hero shot, 9:16 vertical, cinematic, ultra-realistic",
+        "video_prompt": "woolly mammoth steps out of the snow toward camera and raises its trunk, breath steaming, low angle, 3 seconds, 9:16 vertical, cinematic",
+        "negative_prompt": "elephant without fur, cartoon, text, watermark"
+      },
+      {
+        "scene_number": 7,
+        "start_sec": 18.0,
+        "duration_sec": 4.0,
+        "section": "TWIST",
+        "visual_description": "Split screen: mammoth herd on the Arctic shore / the finished pyramid gleaming.",
+        "camera_movement": "Both halves slowly dolly right in sync",
+        "image_prompt": "vertical split screen, top: small herd of woolly mammoths on a grey Arctic shoreline; bottom: freshly finished Great Pyramid with bright white casing stones gleaming under noon sun, 9:16, cinematic, ultra-realistic",
+        "video_prompt": "split screen, both halves dolly right in sync, mammoths walk, heat shimmer above the pyramid, 4 seconds, 9:16 vertical",
+        "negative_prompt": "text, watermark, cartoon"
+      },
+      {
+        "scene_number": 8,
+        "start_sec": 22.0,
+        "duration_sec": 4.0,
+        "section": "ESCALATION",
+        "visual_description": "Medieval scholars in dark robes in a candlelit stone hall in Oxford.",
+        "camera_movement": "Slow dolly between reading desks",
+        "image_prompt": "medieval scholars in dark wool robes reading manuscripts in a candlelit stone hall in twelfth-century Oxford, 9:16 vertical, cinematic, ultra-realistic, warm candle glow",
+        "video_prompt": "camera dollies slowly between wooden desks, candles flicker, a scholar turns a vellum page, 4 seconds, 9:16 vertical",
+        "negative_prompt": "modern furniture, text, watermark"
+      },
+      {
+        "scene_number": 9,
+        "start_sec": 26.0,
+        "duration_sec": 3.0,
+        "section": "ESCALATION",
+        "visual_description": "An eagle lands on a cactus on a reed island in a vast lake - the founding of Tenochtitlan.",
+        "camera_movement": "Crane down from sky to the eagle",
+        "image_prompt": "golden eagle landing on a prickly pear cactus on a small reed island in a shimmering highland lake, Mexica canoes nearby, volcanoes in the distance, 9:16 vertical, cinematic, ultra-realistic",
+        "video_prompt": "crane down from the sky as an eagle lands on the cactus, wings spread, canoes glide past, 3 seconds, 9:16 vertical",
+        "negative_prompt": "snake in mouth close-up gore, text, watermark"
+      },
+      {
+        "scene_number": 10,
+        "start_sec": 29.0,
+        "duration_sec": 3.0,
+        "section": "ESCALATION",
+        "visual_description": "Camera rockets upward away from Earth while time rewinds: cities vanish, ice sheets advance.",
+        "camera_movement": "Vertical rocket pull-back to orbit",
+        "image_prompt": "view of Earth from low orbit with continents shifting and ice caps expanding, streaks of light like a time-lapse, 9:16 vertical, cinematic, ultra-realistic",
+        "video_prompt": "rapid pull-back from ground to orbit, reverse time-lapse: city lights switch off, glaciers advance, continents drift, 3 seconds, 9:16 vertical",
+        "negative_prompt": "text, watermark, cartoon"
+      },
+      {
+        "scene_number": 11,
+        "start_sec": 32.0,
+        "duration_sec": 3.0,
+        "section": "ESCALATION",
+        "visual_description": "A Stegosaurus silhouetted in fog in a Late Jurassic fern forest.",
+        "camera_movement": "Slow truck left through ferns",
+        "image_prompt": "Stegosaurus silhouetted in morning fog in a Late Jurassic fern and conifer forest, tall back plates catching rim light, 9:16 vertical, cinematic, ultra-realistic",
+        "video_prompt": "camera trucks left through ferns revealing a Stegosaurus in fog, tail spikes swinging slowly, 3 seconds, 9:16 vertical",
+        "negative_prompt": "cartoon, toy, text, watermark"
+      },
+      {
+        "scene_number": 12,
+        "start_sec": 35.0,
+        "duration_sec": 4.0,
+        "section": "FINAL_SURPRISE",
+        "visual_description": "Tyrannosaurus rex roars in the rain in a Late Cretaceous forest.",
+        "camera_movement": "Extreme low angle, whip-pan into the roar",
+        "image_prompt": "Tyrannosaurus rex roaring in heavy rain in a Late Cretaceous forest at dusk, water spraying from its jaws, extreme low angle, lightning backlight, 9:16 vertical, cinematic, ultra-realistic",
+        "video_prompt": "whip-pan to a T. rex mid-roar in the rain, camera shakes with the roar, lightning flash, 4 seconds, 9:16 vertical",
+        "negative_prompt": "cartoon, toy, text, watermark"
+      },
+      {
+        "scene_number": 13,
+        "start_sec": 39.0,
+        "duration_sec": 2.0,
+        "section": "FINAL_SURPRISE",
+        "visual_description": "Extreme close-up of the T. rex eye; its reflection shows a modern city skyline.",
+        "camera_movement": "Macro push-in to the pupil",
+        "image_prompt": "extreme macro close-up of a Tyrannosaurus rex eye, golden iris, reflection of a modern glass city skyline at night in the pupil, 9:16 vertical, cinematic, ultra-realistic",
+        "video_prompt": "macro push-in into the T. rex eye until the reflected city skyline fills the frame, 2 seconds, 9:16 vertical",
+        "negative_prompt": "cartoon, text, watermark"
+      },
+      {
+        "scene_number": 14,
+        "start_sec": 41.0,
+        "duration_sec": 4.0,
+        "section": "CTA",
+        "visual_description": "Back to Cleopatra with the phone; she turns the screen to camera. Matches frame 1 for the loop.",
+        "camera_movement": "Slow push-in ending on the exact framing of scene 1",
+        "image_prompt": "a woman in her late twenties portraying Cleopatra VII, warm olive skin, dark kohl-lined almond eyes, black hair in tight braids under a gold vulture crown, white pleated linen gown with a broad gold-and-lapis collar necklace, turning a glowing modern smartphone toward camera with a knowing smile, on the Giza plateau at golden hour, the Great Pyramid weathered and missing most of its white casing stones, wind-blown sand, haze on the horizon, medium close-up, 9:16 vertical, cinematic, ultra-realistic, dramatic rim light",
+        "video_prompt": "a woman in her late twenties portraying Cleopatra VII, warm olive skin, dark kohl-lined almond eyes, black hair in tight braids under a gold vulture crown, white pleated linen gown with a broad gold-and-lapis collar necklace turns the glowing smartphone toward camera and smiles on the Giza plateau at golden hour, the Great Pyramid weathered and missing most of its white casing stones, wind-blown sand, haze on the horizon; slow push-in that ends on the same framing as the opening shot, 4 seconds, 9:16 vertical",
+        "negative_prompt": "text, watermark, logo, extra fingers, distorted hands"
+      }
+    ]
+  },
+  "packaging": {
+    "titles": [
+      "Cleopatra Is Closer to the iPhone Than the Pyramids",
+      "3 Timeline Facts That Break Your Brain",
+      "Mammoths Were Alive When the Pyramids Were Built",
+      "Oxford Is Older Than the Aztec Empire",
+      "T. Rex Is Closer to You Than to Stegosaurus",
+      "History's Timeline Is Weirder Than You Think",
+      "The Pyramids Were Ancient… Even to Cleopatra",
+      "Your Brain Gets History's Timeline Wrong",
+      "These Overlaps Sound Fake. They're Not.",
+      "Time Is Broken: 4 Real Overlaps",
+      "The Dinosaur Fact Nobody Believes",
+      "What Was Alive When the Pyramids Went Up?",
+      "Why 'Ancient' Means Nothing",
+      "History Class Skipped These Overlaps",
+      "Wait for the Dinosaur One"
+    ],
+    "captions": [
+      "Cleopatra saw the pyramids as ruins. Which fact broke your brain the most? 👇",
+      "Mammoths + pyramids at the same time?! Tag the friend who won't believe this.",
+      "History isn't a straight line - it's overlaps all the way down. Part 2?",
+      "Wait for the dinosaur one. Seriously. 🦖",
+      "Every fact here is real (sources in comments). Which one did you know?",
+      "Oxford before the Aztec capital. Your move, history teacher.",
+      "'Ancient' is relative. Drop another timeline overlap in the comments 👇",
+      "Rewatch and check her phone in the first frame 👀",
+      "Send this to the person who says history is boring.",
+      "Which one do you not believe? I'll post the source."
+    ],
+    "hashtags": [
+      "#history",
+      "#historyfacts",
+      "#facts",
+      "#mindblown",
+      "#didyouknow",
+      "#ancientegypt",
+      "#cleopatra",
+      "#pyramids",
+      "#giza",
+      "#woollymammoth",
+      "#mammoth",
+      "#dinosaurs",
+      "#trex",
+      "#stegosaurus",
+      "#oxford",
+      "#aztec",
+      "#tenochtitlan",
+      "#timeline",
+      "#learnontiktok",
+      "#historytok",
+      "#sciencefacts",
+      "#funfacts",
+      "#education",
+      "#ancienthistory",
+      "#fyp"
+    ],
+    "seo_keywords": [
+      "Cleopatra closer to iPhone than pyramids",
+      "when were the pyramids built",
+      "last woolly mammoths Wrangel Island",
+      "Oxford older than Aztecs",
+      "T rex closer to humans than Stegosaurus",
+      "mind blowing history facts",
+      "timeline overlaps history"
+    ],
+    "platforms": [
+      {
+        "platform": "TikTok",
+        "fit": "Primary. Fact-stack + loop edit suits the For You feed; 45s is ideal for completion.",
+        "best_post_window": "Tue-Thu 18:00-21:00 local",
+        "on_platform_tweaks": "Pin a comment with sources; reply-with-video to 'I don't believe the mammoth one'."
+      },
+      {
+        "platform": "Instagram Reels",
+        "fit": "Strong for shares/saves; audience likes 'send to a friend' prompts.",
+        "best_post_window": "Mon-Fri 11:00-13:00 or 19:00-21:00",
+        "on_platform_tweaks": "Cover frame: Cleopatra + iPhone with 'CLOSER TO iPHONES?!'; use carousel follow-up with sources."
+      },
+      {
+        "platform": "YouTube Shorts",
+        "fit": "Evergreen search value; titles with 'mammoths' and 'T. rex' rank.",
+        "best_post_window": "Fri-Sun 12:00-17:00",
+        "on_platform_tweaks": "Use title #3 or #5; link to a long-form 'history overlaps' video."
+      },
+      {
+        "platform": "Facebook Reels",
+        "fit": "Older skew loves history trivia; comments drive reach.",
+        "best_post_window": "Daily 19:00-22:00",
+        "on_platform_tweaks": "Burned-in captions are essential (sound off); end card asks 'Which one surprised you?'."
+      }
+    ]
+  },
+  "ab_test": {
+    "variants": [
+      {
+        "label": "A",
+        "hook": "Cleopatra is closer to iPhones than pyramids.",
+        "title": "Cleopatra Is Closer to the iPhone Than the Pyramids",
+        "opening": "Cleopatra is closer to iPhones than pyramids. The Great Pyramid was already twenty-five centuries old when she was born. To her, it was ancient history.",
+        "cta": "Send this to someone who thinks history is boring. Follow for part two.",
+        "hypothesis": "Baseline: celebrity-history comparison maximises 3-second hold."
+      },
+      {
+        "label": "B",
+        "hook": "T. rex is closer to you than...",
+        "title": "T. Rex Is Closer to You Than to Stegosaurus",
+        "opening": "T. rex is closer to you than... hold that thought. Start with Cleopatra.",
+        "cta": "Comment the overlap you'd put at number one.",
+        "hypothesis": "Leading with the biggest fact as an unfinished sentence lifts completion (payoff delayed to the end); watch completion rate and comments."
+      },
+      {
+        "label": "C",
+        "hook": "Mammoths watched the pyramids go up.",
+        "title": "Mammoths Were Alive When the Pyramids Were Built",
+        "opening": "Mammoths watched the pyramids go up. And it gets weirder from here.",
+        "cta": "Save this for your next trivia night.",
+        "hypothesis": "Animal-led visual hook broadens the audience beyond history fans; watch reach to non-followers and saves."
+      }
+    ]
+  },
+  "qc": {
+    "scores": {
+      "hook_strength": 9,
+      "mystery": 9,
+      "retention": 9,
+      "originality": 8,
+      "factual_support": 10,
+      "emotional_impact": 8
+    },
+    "issues": [
+      "Cleopatra/pyramid and T. rex/Stegosaurus facts circulate online; originality relies on stacking and the loop edit."
+    ],
+    "verdict": "pass",
+    "revision_notes": ""
+  }
+}
